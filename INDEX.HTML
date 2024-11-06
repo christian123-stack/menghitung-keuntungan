@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Keuntungan Penjualan Per Bulan</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Hitung Keuntungan Penjualan Per Bulan</h1>
+        <label for="hargaBarang">hasil penjualan per bulan</label>
+        <input type="number" id="hargaBarang" required>
+
+        <label for="modalBarang">biaya modal:</label>
+        <input type="number" id="modalBarang" required>
+
+        <label for="hargaSewa">Harga Sewa Toko Per Bulan:</label>
+        <input type="number" id="hargaSewa" required>
+
+        <label for="hargaDistribusi">Harga Distribusi Per Bulan:</label>
+        <input type="number" id="hargaDistribusi" required>
+
+
+        <button onclick="hitungKeuntungan()">Hitung Keuntungan</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
